@@ -1,0 +1,26 @@
+VIDEO_SOURCE: 1
+rtsp_stream_url: "rtsp://admin:123456@192.168.1.43:554/Streaming/Channels/101" #43 and  #142
+# rtsp_stream_url: "rtsp://admin:123456@192.168.1.150:4747/Streaming/Channels/101" #43
+
+faceapi_baseurl: "http://localhost:8000"
+# db_connection_str: "mongodb+srv://sahasra:4Jan%401998@visitormanagement.th43u.mongodb.net/?retryWrites=true&w=majority&appName=VisitorManagement"
+
+db_connection_str: "mongodb+srv://sahasra:vms@vms.25fdl.mongodb.net/?retryWrites=true&w=majority&appName=vms"
+
+MONGO_DB_NAME: "visitor_management"
+facedb_collection_name: "employees"  # Changed for employees
+visitor_collection_name: "visitors"  # Added for visitors
+attendance_collection_name: "attendance_logs"  # Changed for attendance logs
+onboarding_collection_name: "onboarding"
+alert_collection_name: "alerts"  # Added for alerts
+users_collection_name: "users"  #for users
+
+
+
+
+
+
+# export CUDA_HOME=/usr/local/cuda-12.0
+# export PATH=$CUDA_HOME/bin:$PATH
+# export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
+# export CUDA_VISIBLE_DEVICES=0  # Adjust '0' to your specific GPU ID, or leave it unset to use all available GPUs.
